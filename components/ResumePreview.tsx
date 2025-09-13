@@ -43,7 +43,7 @@ export default function ResumePreview({ data }: ResumePreviewProps) {
           }}
         >
           <span style={{ color: "#000000" }}>checkout 👉🏻 </span>
-          unhingedportfolio.stackforgelabs.icu
+          unhinged.stackforgelabs.icu
         </div>
       </div>
 
