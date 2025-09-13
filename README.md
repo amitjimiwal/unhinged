@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎭 Unhinged Resume Generator
 
-## Getting Started
+A fun and chaotic resume builder that lets you create the most unhinged resumes possible! Break free from boring, traditional resumes LMAO
 
-First, run the development server:
+![Unhinged Resume Generator](https://img.shields.io/badge/Status-Live-brightgreen)
+![Next.js](https://img.shields.io/badge/Next.js-15.5.3-black)
+![React](https://img.shields.io/badge/React-18-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- pnpm (recommended) or npm
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/amitjimiwal/unhinged.git
+   cd unhinged
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   pnpm install
+   # or
+   npm install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   pnpm dev
+   # or
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 🎮 How to Use
+
+### 1. **Choose Your Template**
+
+- Start with a preset template or build from scratch
+- Templates include hilarious content to get you started
+
+### 2. **Customize Your Resume**
+
+- **Add Your Name**: Enter your "good name"
+- **Upload Photo**: Add a profile picture (optional)
+- **Edit Sections**: Modify titles and content
+- **Add Items**: Create bullet points and lists
+- **Toggle Visibility**: Show/hide sections as needed
+
+### 3. **Download Your Masterpiece**
+
+- Click the "Download" button to save as PNG
+- Your unhinged resume is ready to share!
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15.5.3 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS + Inline Styles
+- **Icons**: Lucide React
+- **Image Processing**: html2canvas
+- **Package Manager**: pnpm
+
+## 📁 Project Structure
+
+```
+unhinged/
+├── app/
+│   ├── page.tsx              # Landing page
+│   ├── unhinged/
+│   │   └── page.tsx         # Resume builder page
+│   ├── layout.tsx           # Root layout
+│   └── globals.css          # Global styles
+├── components/
+│   ├── ResumeBuilder.tsx    # Main builder component
+│   ├── ResumePreview.tsx    # Live preview component
+│   ├── PresetTemplates.tsx  # Template selector
+│   └── ThemeToggle.tsx      # Theme switcher
+├── types/
+│   └── resume.ts           # TypeScript interfaces
+└── public/                 # Static assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤝 Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+We welcome contributions! Here's how you can help:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Fork the repository**
+2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
+3. **Commit your changes**: `git commit -m 'Add amazing feature'`
+4. **Push to the branch**: `git push origin feature/amazing-feature`
+5. **Open a Pull Request**
 
-## Learn More
+## 📄 License
 
-To learn more about Next.js, take a look at the following resources:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📞 Support
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Twitter**: [@noslopinfinite](https://x.com/noslopinfinite)
 
-## Deploy on Vercel
+## 🌟 Star History
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[![Star History Chart](https://api.star-history.com/svg?repos=amitjimiwal/unhinged&type=Date)](https://star-history.com/#amitjimiwal/unhinged&Date)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Made with 💙 for the unhinged**
+_Ready to create your most chaotic resume yet? Let's go unhinged! 🎭_
