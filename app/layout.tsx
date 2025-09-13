@@ -16,6 +16,23 @@ export const metadata: Metadata = {
   title: "Unhinged Resume Generator",
   description:
     "Create your most chaotic and unhinged resume with our fun resume builder!",
+  openGraph: {
+    title: "Unhinged Resume Generator",
+    description:
+      "Create your most chaotic and unhinged resume with our fun resume builder!",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dejzy9q65/image/upload/v1757753393/Screenshot_2025-09-13_at_2.13.38_PM_glv8fa.png",
+        width: 1200,
+        height: 630,
+        alt: "Unhinged Resume",
+      },
+    ],
+    siteName: "Unhinged Resume",
+  },
+  twitter: {
+    images: [],
+  },
 };
 
 export default function RootLayout({

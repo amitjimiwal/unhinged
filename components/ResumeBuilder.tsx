@@ -16,6 +16,7 @@ import ResumePreview from "./ResumePreview";
 import html2canvas from "html2canvas";
 import PresetTemplates from "./PresetTemplates";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface ResumeBuilderProps {}
 
 export default function ResumeBuilder({}: ResumeBuilderProps) {
