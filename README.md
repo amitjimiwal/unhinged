@@ -42,6 +42,23 @@ A fun and chaotic resume builder that lets you create the most unhinged resumes 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
+### 🔐 Auth setup (Clerk + Google)
+
+1. Create a Clerk application and enable Google OAuth in Clerk Dashboard.
+2. Create `.env.local` from the example and fill values:
+
+   ```bash
+   cp .env.local.example .env.local
+   ```
+
+   Set these keys:
+
+   - `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
+   - `CLERK_SECRET_KEY`
+   - Optionally: `CLERK_SIGN_IN_URL=/sign-in`, `CLERK_SIGN_UP_URL=/sign-up`, `CLERK_AFTER_SIGN_IN_URL=/unhinged`, `CLERK_AFTER_SIGN_UP_URL=/unhinged`
+
+3. Start the dev server and sign in at `/sign-in`. The `/unhinged` route is protected.
+
 ## 🎮 How to Use
 
 ### 1. **Choose Your Template**

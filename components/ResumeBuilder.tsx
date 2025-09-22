@@ -182,7 +182,7 @@ export default function ResumeBuilder({}: ResumeBuilderProps) {
 
   return (
     <div className="container mx-auto px-4 py-8 relative">
-      <div className="my-12 text-center w-full">
+      <div className="my-4 text-center w-full">
         <div className="rounded-xl shadow-lg p-6 border border-white/20">
           <h3 className="text-xl font-bold text-white mb-3">🎯 How to Use</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-300">
