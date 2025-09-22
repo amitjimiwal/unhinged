@@ -18,6 +18,12 @@ const PRESET_TEMPLATES: ResumeData[] = [
         enabled: true,
       },
       {
+        id: "gym-summary",
+        title: "Jim Skills",
+        content: ["Bench PR 110kg", "Deadlift 150kg","Muscular"],
+        enabled: true,
+      },
+      {
         id: "education",
         title: "Education",
         content: ["Non IIT (Tier 3 College)"],
